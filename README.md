@@ -1,11 +1,11 @@
-# Very short description of the package
+# Laravel Google Contact
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/reubenwedson/laravel-google-contacts.svg?style=flat-square)](https://packagist.org/packages/reubenwedson/laravel-google-contacts)
 [![Build Status](https://img.shields.io/travis/reubenwedson/laravel-google-contacts/master.svg?style=flat-square)](https://travis-ci.org/reubenwedson/laravel-google-contacts)
 [![Quality Score](https://img.shields.io/scrutinizer/g/reubenwedson/laravel-google-contacts.svg?style=flat-square)](https://scrutinizer-ci.com/g/reubenwedson/laravel-google-contacts)
 [![Total Downloads](https://img.shields.io/packagist/dt/reubenwedson/laravel-google-contacts.svg?style=flat-square)](https://packagist.org/packages/reubenwedson/laravel-google-contacts)
 
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
+Allow easy acces to Google Contacts in Laravel Application
 
 ## Installation
 
@@ -18,7 +18,8 @@ composer require reubenwedson/laravel-google-contacts
 ## Usage
 
 ``` php
-// Usage description here
+// simple ysage
+$contacts = manager()->getContacts();
 ```
 
 ### Testing
@@ -42,6 +43,7 @@ If you discover any security related issues, please email reubenwedson@gmail.com
 ## Credits
 
 - [Reuben Wedson](https://github.com/reubenwedson)
+- [Alpha Olomi](https://github.com/alphaolomi)
 - [All Contributors](../../contributors)
 
 ## License
