@@ -18,7 +18,7 @@ composer require reubenwedson/laravel-google-contacts
 ## Usage
 
 ``` php
-// simple ysage
+// simple usage
 $contacts = manager()->getContacts();
 ```
 
