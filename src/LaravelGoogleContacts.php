@@ -3,6 +3,9 @@
 namespace Reubenwedson\LaravelGoogleContacts;
 
 class LaravelGoogleContacts
-{
-    // Build your next great package.
+{    
+    public function __construct(): void
+    {
+        // Build your next great package.
+    }
 }
